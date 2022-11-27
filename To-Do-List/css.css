@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dc3545;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#dropdown::after{
+    display: none;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task label.checked{
+    text-decoration: line-through;
+    background-color: #198754;
+}
